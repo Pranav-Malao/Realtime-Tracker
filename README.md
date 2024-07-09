@@ -2,7 +2,8 @@
 
 This Node.js application functions as a real-time tracker that displays your current location on a map and dynamically updates the marker as you move by the use of web sockets.
 The location data is sent to the server and the frontend back-and-forth by the use of web sockets.
-![CampPrime Logo](screenshots/main.png)
+![CampPrime showpage](Screenshots/PC_version.png)
+![CampPrime Logo](Screenshots/Mobile_version.jpg)
 
 ## Features
 
@@ -10,11 +11,11 @@ The location data is sent to the server and the frontend back-and-forth by the u
 - **Tool-tip**: The location coordinates can be viewed on the tool-tip associated to each marker.
 - **Dynamic location update**: The location of the device is updated every 5 sec in a high accuracy mode.
 - **Multiple users support**: The users can join and view each others markers.
-![CampPrime showpage](screenshots/show.png)
 
 ## Installation & Usage
 
 #### To use Realtime-Tracker's hosted version, Just click on this link:
+https://realtime-tracker-zzqb.onrender.com/
 
 #### To use CampPrime locally, follow these steps:
 
