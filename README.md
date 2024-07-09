@@ -3,7 +3,7 @@
 This Node.js application functions as a real-time tracker that displays your current location on a map and dynamically updates the marker as you move by the use of web sockets.
 The location data is sent to the server and the frontend back-and-forth by the use of web sockets.
 ![CampPrime showpage](Screenshots/PC_version.png)
-![CampPrime Logo](Screenshots/Mobile_version.jpg)
+![CampPrime Logo](Screenshots/Mobile_version.jpg){width = 700}
 
 ## Features
 
