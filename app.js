@@ -1,6 +1,22 @@
 const express = require('express');
 const app = express();
 
+const url = 'https://realtime-tracker-zzqb.onrender.com/';
+const interval = 30000;
+
+function reload() {
+  fetch(url)
+    .then((res) => {
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+      console.log("page reloaded");
+    })
+    .catch((error) => {
+      console.log(`Error: ${error.message}`);
+    });
+}
+
+setInterval(reload, interval);
+
 const path = require('path');
 const http = require('http').createServer(app);
 
